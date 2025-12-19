@@ -22,7 +22,7 @@ except:
     st.error("Error: 'scaler.pkl' not found. Please ensure it is in the same folder.")
 
 # 2. Sidebar for Data Upload
-st.sidebar.header("Upload Data")
+st.sidebar.header("Mall_Customers.csv")
 uploaded_file = st.sidebar.file_uploader("Upload 'Mall_Customers.csv'", type=["csv"])
 
 if uploaded_file is not None:
