@@ -23,7 +23,7 @@ except:
 
 # 2. Sidebar for Data Upload
 st.sidebar.header("Upload Data")
-uploaded_file = st.sidebar.file_uploader("Upload 'Mall_customer.csv'", type=["csv"])
+uploaded_file = st.sidebar.file_uploader("Upload 'Mall_Customer.csv'", type=["csv"])
 
 if uploaded_file is not None:
     # Load and show initial data
